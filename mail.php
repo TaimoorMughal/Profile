@@ -2,7 +2,7 @@
  
   $receiving_email_address = 'fahadjamil221@gmail.com';
 
-  
+echo $receiving_email_address;
   $contact = new PHP_Email_Form;
   
   $contact->to = $receiving_email_address;
